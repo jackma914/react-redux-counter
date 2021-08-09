@@ -1,5 +1,7 @@
 import "./App.css";
 import AddNumberRoot from "./components/AddNumberRoot";
+import DisplayRoot from "./components/DisplayRoot";
+import React, { useState } from "react";
 
 function App() {
   return (
@@ -7,24 +9,6 @@ function App() {
       <h1>Root</h1>
       <AddNumberRoot />
       <DisplayRoot />
-    </div>
-  );
-}
-
-function Display() {
-  return (
-    <div>
-      <h1>Display Add Number</h1>
-      <input type="text" value="0" readOnly />
-    </div>
-  );
-}
-
-function DisplayRoot() {
-  return (
-    <div>
-      <h1>Display Add Rumber Root</h1>
-      <Display />
     </div>
   );
 }

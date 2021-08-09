@@ -1,4 +1,5 @@
 import AddNumber from "./AddNumber";
+import DisplayNumber from "../container/DisplayNumber";
 
 export default function AddNumberRoot() {
   return (
